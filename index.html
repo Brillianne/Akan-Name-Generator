@@ -3,22 +3,28 @@
 <html lang="en">
 <head>
     <title> Week-2 IP </title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 </head>
 <body>
+    <div class="container">
     <p>This is a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name</p>
-    <form>
-        <label for="DOB"> Enter DOB</label>
-        <input type ='date' name='DOB'/>
-    </form>
-    <form>  
-        <label> Select Cars </label>  
-        <select>  
-        <option value = "Male"> BMW   
-        </option>  
-        <option value = "Female"> Mercedes   
-        </option> 
+    <form id ="form">
+    <div class="mb-3">
         
-    </form>
-    <input type="button" value="Submit">
+            <label for="DOB" class="form-label"> Enter DOB</label>
+            <input type ='date' name='DOB'/>
+    </div>
+   <div class="mb-3">
+        <label class ="form-label"> Select Gender </label>  
+        <select>  
+        <option value = "Male"> Male </option>  
+        <option value = "Female"> Female   </option> 
+        </select>
+    </div>
+    <button type="button" class="btn btn-secondary">Submit</button>
+</form>
+</div>
+<script src="main.js"></script>
 </body>
 </html>
