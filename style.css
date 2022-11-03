@@ -48,3 +48,36 @@ body{
   #result{
     text-align: center;
   }
+
+  .content{
+    background-color: rgba(206, 17, 38, 0.72);
+    /* height: 600px; */
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10px;
+    margin-bottom: auto;
+    padding-bottom: 20px;
+    box-shadow: 2px 2px #000000;
+    border-radius: 0.5%;
+  }
+  
+  .research{
+    text-decoration: underline;
+    color: white;
+  }
+
+  .clear{
+    border-radius: 5px;
+    color: #000000;
+    background-color: #FCD116;
+    text-align: center;
+    border: solid 1px #000000;
+    width: 108px;
+    height: 32px;
+    font-size: 13px;
+    box-shadow: 2px 2px #000000;
+  }
+  
+  a:hover{
+    color: #006B3F;
+  }
