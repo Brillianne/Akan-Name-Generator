@@ -2,17 +2,19 @@ Akan-Name-Generator.
 
 Project description.
 This is a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name
-
 Author.
+
 Brillianne
 
 Setup instructions 
+
 Open Terminal {Ctrl+Alt+T}
 git clone https://github.com/Brillianne/Akan-Name-Generator.git
 cd Akan-Name-Generator
 code . or atom . based on the text editor you have.
 
 BDD.
+
 Enter century of birth eg 20 for 2019, Input Example 20 Output example 20
 
 Enter year of Birth eg 19 for 2019 Input Example 19 Output Example 19
@@ -42,9 +44,11 @@ gender -- male selected, Expected output is You were born on Sunday and Your aka
 Technologies used.
 
 HTML5
+
 CSS
+
 JavaScript
-markdown
+
 Bootstrap
 
 Known Bugs
