@@ -1,12 +1,15 @@
 Akan-Name-Generator.
 
 Project description.
+
 This is a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name
+
 
 
 Author.
 
 Brillianne
+
 
 
 Setup instructions 
@@ -15,6 +18,7 @@ Open Terminal {Ctrl+Alt+T}
 git clone https://github.com/Brillianne/Akan-Name-Generator.git
 cd Akan-Name-Generator
 code . or atom . based on the text editor you have.
+
 
 
 BDD.
@@ -57,14 +61,17 @@ JavaScript
 Bootstrap
 
 
+
 Known Bugs
 
 No known bugs
 
 
+
 Contact information.
 
 If you have any question or contributions, please email me at [brillianchepngeno@gmail.com]
+
 
 
 License and Copyright information.
