@@ -33,4 +33,18 @@ body{
     height: 20px;
     box-shadow: 2px 2px #000000;
   }
+  #get-name{
+    border-radius: 5px;
+    color: #000000;
+    background-color: #FCD116;
+    text-align: center;
+    border: solid 1px #000000;
+    width: 108px;
+    height: 32px;
+    font-size: 13px;
+    box-shadow: 2px 2px #000000;
+  }
   
+  #result{
+    text-align: center;
+  }
