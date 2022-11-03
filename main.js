@@ -24,7 +24,7 @@ function getAkanName () {
       return true;
     }
   }
-/*
+
   function dayValidator () {
     if (monthOfBirth === 2 && Number(yearOfBirth)%4 === 0) {
       if (dayOfBirth > 28 || dayOfBirth < 1) {
@@ -46,7 +46,7 @@ function getAkanName () {
     //validation variables
     let monthValid = monthValidator();
     let dayValid = dayValidator();
-  
+  /*
     //formula to determine day of birth (Sunday = 1, Monday = 2)etc..
     let dayOfWeekNumber = Math.floor((((Number(yearOfBirth.slice(0,2))/4)-2*Number(yearOfBirth.slice(0,2))-1)+
             ((5*Number(yearOfBirth.slice(2,4))/4))+((26*(monthOfBirth+1)/10))+dayOfBirth)%7);
