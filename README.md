@@ -15,8 +15,11 @@ Brillianne
 Setup instructions 
 
 Open Terminal {Ctrl+Alt+T}
+
 git clone https://github.com/Brillianne/Akan-Name-Generator.git
+
 cd Akan-Name-Generator
+
 code . or atom . based on the text editor you have.
 
 
@@ -33,22 +36,14 @@ Enter Date of the month you were born in eg 20 input example 20 output example 2
 
 Select gender Input example male output male
 
-Submit. Input example, the program compares the inputs with the conditions set for the inputs eg if No input field is empty, the program executes else an alert to enter valid deatils.
+Submit. Input example, the program compares the inputs with the conditions set for the inputs eg if No input field is empty, the program executes else an alert to enter valid details.
 
 0 < Date >= 31.
 0 < Month >= 12
 Gender Male or Female.
 
 True value is output. Output example: You were born on Sunday and Your akan name is Kwasi! &nbsp If your gender is Male.
-True value is output. Output example: You were born on Sunday and Your akan name is Akosua! &nbsp If your gender is female.
-Example
-
-century input -- 20
-year input -- 19
-month input -- 7
-date input -- 14
-gender -- male selected, Expected output is You were born on Sunday and Your akan name is Kwasi!
-
+True value is output. Output example: You were born on Sunday and Your akan name is Akosua! &nbsp If your gender is female
 
 Technologies used.
 
