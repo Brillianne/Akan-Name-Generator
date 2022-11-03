@@ -50,7 +50,7 @@ function getAkanName () {
     //formula to determine day of birth (Sunday = 1, Monday = 2)etc..
     let dayOfWeekNumber = Math.floor((((Number(yearOfBirth.slice(0,2))/4)-2*Number(yearOfBirth.slice(0,2))-1)+
             ((5*Number(yearOfBirth.slice(2,4))/4))+((26*(monthOfBirth+1)/10))+dayOfBirth)%7);
-  /*
+  
     //creating arrays of Akan names for males & females and days of the week
     let daysOfWeek = [
       "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"
@@ -66,13 +66,14 @@ function getAkanName () {
     
      //generating and index value to select items on arrays
   let index;
+  /*
   // fix formula bug
   if (dayOfWeekNumber == 0){
     index = 6;
   } else {
     index = dayOfWeekNumber - 1;
   }
-
+    */
   console.log(index);
 
   if (myGenderValue == "male" && monthValid && dayValid) {
