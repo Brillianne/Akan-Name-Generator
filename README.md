@@ -8,9 +8,13 @@ This is a web application that takes a user's birthday and calculates the day of
 Brillianne
 # Setup instructions 
 Open Terminal {Ctrl+Alt+T}
+
 git clone https://github.com/Brillianne/Akan-Name-Generator.git
+
 cd Akan-Name-Generator
+
 code . or atom . based on the text editor you have.
+
 # BDD.
 Enter century of birth eg 20 for 2019
 
