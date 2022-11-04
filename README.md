@@ -31,12 +31,16 @@ Submit, the program compares the inputs with the conditions set for the inputs e
 Gender Male or Female.
 
 True value is output. Output example: You were born on Sunday and Your akan name is Kwasi! &nbsp If your gender is Male.
+
 True value is output. Output example: You were born on Sunday and Your akan name is Akosua! &nbsp If your gender is female
 
 # Technologies used.
 HTML5
+
 CSS
+
 JavaScript
+
 Bootstrap
 
 # Github Pages link
