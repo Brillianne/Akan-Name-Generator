@@ -13,14 +13,21 @@ cd Akan-Name-Generator
 code . or atom . based on the text editor you have.
 # BDD.
 Enter century of birth eg 20 for 2019
+
 Enter year of Birth eg 19 for 2019
+
 Enter month of birth eg 1 for january 
+
 Enter Date of the month you were born in eg 20 
+
 Select gender 
+
 Submit, the program compares the inputs with the conditions set for the inputs eg if there's no empty input field , the program executes else an alert to enter valid details.
 
-0 < Date >= 31.
+0 < Date >= 31
+
 0 < Month >= 12
+
 Gender Male or Female.
 
 True value is output. Output example: You were born on Sunday and Your akan name is Kwasi! &nbsp If your gender is Male.
